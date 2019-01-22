@@ -5,6 +5,10 @@ def my_select(selection)
     my_selection[i] = yield selection[i] # yields a boolean
     if my_selection[i] == true # we test truthiness
       my_selection[i] = selection[i]
+    elsif my_selection[i] = nul
+    else
+      puts "no arguments"
+      break
     end
     i += 1
   end
