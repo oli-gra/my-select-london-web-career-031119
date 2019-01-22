@@ -8,5 +8,5 @@ def my_select(selection)
     end
     i += 1
   end
-  my_selection.delete_if { |e| e=="false" }
+  my_selection - ["false"]
 end
