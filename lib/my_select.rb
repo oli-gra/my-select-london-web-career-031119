@@ -5,7 +5,8 @@ def my_select(selection)
     my_selection[i] = yield selection[i] # yields a boolean
     if my_selection[i] == true # we test truthiness
       my_selection << selection[i]
-    elsif my_selection[i] = ""
+    elsif my_selection[i] == false
+    
     else
       puts "no arguments"
       break
