@@ -5,6 +5,7 @@ def my_select(selection)
     my_selection[i] = yield selection[i]
     if my_selection[i] == true
       my_selection[i] = selection[i]
+    end
     i += 1
   end
   my_selection
